@@ -30,6 +30,7 @@
                 <configuration>
                 <password>Ntafni060282</password>
                 <username>namrouche</username>
+                <pushChanges>false</pushChanges>
               </configuration>
             </plugin>
         </plugins>
@@ -38,7 +39,6 @@
    <scm>
     <connection>scm:git:git@github.com:namrouche/zenika_nc.git</connection>
     <developerConnection>scm:git:git@github.com:namrouche/zenika_nc.git</developerConnection>
-    <tag>maven-release-sample-1.1</tag>
   </scm>
      
   <distributionManagement>
