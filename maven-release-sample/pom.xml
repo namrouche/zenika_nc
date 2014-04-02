@@ -36,7 +36,7 @@
 
    <scm>
     <connection>scm:git:https://github.com/namrouche/zenika_nc.git</connection>
-    <developerConnection>scm:https://github.com/namrouche/zenika_nc.git</developerConnection>
+    <developerConnection>scm:git:https://github.com/namrouche/zenika_nc.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
      
