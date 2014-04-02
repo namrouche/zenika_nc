@@ -3,7 +3,7 @@
 
   <groupId>com.zenika.nc.ci</groupId>
   <artifactId>maven-release-sample</artifactId>
-  <version>1.4-SNAPSHOT</version>
+  <version>1.7-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>maven-release-sample</name>
@@ -45,12 +45,12 @@
       <uniqueVersion>false</uniqueVersion>
        <id>local-repository</id>
                <name>Local Repository</name>
-                <url>file:///C:/training</url>
+                <url>${project.basedir}/target/release</url>
     </repository>
             <snapshotRepository>
                <id>snapshot-local-repository</id>
                <name>Local Repository</name>
-                <url>file:///C:/training</url>
+                <url>${project.basedir}/target/snapshot</url>
             </snapshotRepository>
   </distributionManagement>
 
