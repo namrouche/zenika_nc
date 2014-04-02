@@ -36,4 +36,19 @@
     <developerConnection>scm:git:git@github.com:namrouche/zenika_nc.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
+     
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+       <id>local-repository</id>
+               <name>Local Repository</name>
+                <url>file:///C:/training</url>
+    </repository>
+            <snapshotRepository>
+               <id>snapshot-local-repository</id>
+               <name>Local Repository</name>
+                <url>file:///C:/training</url>
+            </snapshotRepository>
+  </distributionManagement>
+
 </project>
