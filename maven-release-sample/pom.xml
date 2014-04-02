@@ -3,7 +3,7 @@
 
   <groupId>com.zenika.nc.ci</groupId>
   <artifactId>maven-release-sample</artifactId>
-  <version>1.4</version>
+  <version>1.4-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>maven-release-sample</name>
@@ -35,9 +35,9 @@
   </build>
 
    <scm>
-    <connection>scm:git:https://github.com/namrouche/zenika_nc.git</connection>
-    <developerConnection>scm:git:https://github.com/namrouche/zenika_nc.git</developerConnection>
-    <tag>maven-release-sample-1.4</tag>
+    <connection>scm:git:git@github.com:namrouche/zenika_nc.git</connection>
+    <developerConnection>scm:git:git@github.com:namrouche/zenika_nc.git</developerConnection>
+    <tag>HEAD</tag>
   </scm>
      
   <distributionManagement>
