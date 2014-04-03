@@ -7,6 +7,7 @@
   <packaging>jar</packaging>
 
   <name>maven-release-sample</name>
+  <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -44,12 +45,12 @@
       <uniqueVersion>false</uniqueVersion>
        <id>local-repository</id>
                <name>Local Repository</name>
-                <url>file:///path/to/MyRepo</url>
+                <url>file:///C:/training</url>
         </repository>
             <snapshotRepository>
                <id>snapshot-local-repository</id>
                <name>Local Repository</name>
-                <url>file:///path/to/MyRepo</url>
+                <url>file:///C:/training</url>
             </snapshotRepository>
   </distributionManagement>
 
